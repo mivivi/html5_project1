@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 1280px;
+    height: 3186px;
+    margin: auto;
+}
+
+.header {
+    width: 1280px;
+    height: 323px;
+    background-color: rgb(68, 81, 97);
+}
+
+.list_header {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 51px;
+    margin-bottom: 51px;
+}
+
+.list_header ul {
+    list-style: none;
+    margin-left: 51px;
+}
+
+.list_header ul li {
+    position: relative;
+}
+
+.list_header ul li:before {
+    content: '\2714';
+    margin-right: 10px;
+}
+
+.list_name {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 37px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.list {
+    display: inline-block;
+    position: absolute;
+}
+
+.logo {
+    background-color: #ffffff;
+    width: 469px;
+    height: 214px;
+    display: inline-block;
+    margin-left: 761px;
+    margin-right: 50px;
+    margin-bottom: 59px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.main {
+    width: 1280px;
+    height: 2863px;
+}
+
+.about_product {
+    height: 250px;
+}
+
+.about_product {
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.about_product h2 {
+    font-family: Arial;
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.about_product p {
+    font-family: Arial;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    width: 649px;
+    margin-bottom: 20px;
+}
+
+.about_product article {
+    float: left;
+}
+
+.img_video {
+    float: left;
+    margin-left: 101px;
+}
+.product_plus {
+    height: 300px;
+}
+
+.left_plus {
+    width: 526px;
+    float: left;
+}
+
+.right_plus {
+    width: 526px;
+    float: left;
+}
+
+.plus_marker ul {
+    list-style: none;
+    margin-left: 51px;
+}

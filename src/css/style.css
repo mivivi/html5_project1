@@ -71,7 +71,7 @@
 
 .main {
     width: 1280px;
-    height: 2863px;
+    height: 2450px;
 }
 
 .about_product {
@@ -315,6 +315,7 @@
 .buy_it {
     width: 1280px;
     height: 656px;
+    margin-bottom: -25px;
 }
 
 .buy_it h2 {
@@ -429,6 +430,10 @@
     list-style-position: inside;
 }
 
+.button_container {
+    text-align: center;
+}
+
 .buy_button {
     border-radius: 5px;
     background-color: #ffffff;
@@ -436,15 +441,126 @@
     height: 40px;
     margin: auto;
     margin-top: 5px;
-}
-
-.buy_button p {
     font-family: Arial;
     color: #445161;
     font-size: 18px;
     font-weight: 700;
     line-height: 18px;
+    text-align: center;
+}
+
+.footer {
+    width: 1280px;
+    height: 509px;
+    background-color: rgb(68, 81, 97);
+    margin-top: 49px;
+    padding-top: 53px;
+}
+
+.footer h2 {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 25px;
+    /*margin-top: 53px;*/
+}
+
+.contacts_container {
+    float: left;
+}
+
+.contacts_container textarea {
+    resize: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 170px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
     text-align: left;
-    margin-left: 111px;
-    margin-top: -10px;
+    padding-left: 10px;
+}
+
+.contacts_container input[type=text] {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 500px;
+    height: 40px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.contacts_container input[type=submit] {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 140px;
+    height: 40px;
+    font-family: Arial;
+    color: #445162;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+
+.send_contacts_button {
+    text-align: center;
+}
+
+.contacts {
+    margin: auto;
+    width: 785px;
+}
+
+.name_holder {
+    margin-bottom: 21px;
+}
+
+.social {
+    float: left;
+    padding-left: 45px;
+}
+
+.soc {
+    margin-bottom: 20px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+.social img {
+    margin-right: 5px;
+}
+
+.soc_button {
+    padding-left: 45px;
+    display: inline;
+
+}
+
+.copyright{
+    width: 1280px;
+height: 30px;
+font-family: Arial;
+color: #445162;
+font-size: 12px;
+font-weight: 400;
+letter-spacing: 0.3px;
+line-height: 24px;
+text-align: center;
 }
